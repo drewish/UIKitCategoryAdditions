@@ -184,10 +184,8 @@ static UIViewController *_presentVC;
                 buttonIndex ++;
             }
             
-            
             UIImagePickerController *picker = [[UIImagePickerController alloc] init];
             picker.delegate = (id <UIImagePickerControllerDelegate, UINavigationControllerDelegate>)[self class];
-            picker.allowsEditing = YES;
             
             if(buttonIndex == 1) 
             {                
